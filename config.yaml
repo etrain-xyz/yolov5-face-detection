@@ -1,0 +1,10 @@
+train:
+  yolo_path: "./train"
+  wider_images_path: "./WIDER_train"
+  wider_annotations_path: "./wider_face_split/wider_face_train_bbx_gt.txt"
+val:
+  yolo_path: "./val"
+  wider_images_path: "./WIDER_val"
+  wider_annotations_path: "./wider_face_split/wider_face_val_bbx_gt.txt"
+
+labels: ["face"]
